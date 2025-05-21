@@ -7,6 +7,17 @@ public abstract class Veicolo {
         this.getModello();
         this.getAnno();
         this.startMotore();
-
     }
+
+    public String getModello(){
+        return modello;
+    }
+
+    public int getAnno(){
+        return anno;
+    }
+
+    public abstract void startMotore;
+
+
 }
